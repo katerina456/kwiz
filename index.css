@@ -155,6 +155,11 @@ label, input {
     bottom: 32px;
 }
 
+
+button:disabled {
+    opacity: 0.5;
+}
+
 .button-white {
     border: 1px solid #D8D8D8;
     color: #383838;

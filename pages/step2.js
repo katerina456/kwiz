@@ -9,9 +9,10 @@ let buttonBlack = document.querySelector('.button-black');
 
 let select = document.querySelector('select');
 
+select.addEventListener('change', () => {
+    buttonBlack.disabled = select.value === '' ? true : false;
+})
+
 buttonBlack.addEventListener('click', () => {
-    if (select.value !== '') {
-        document.location.href = "step3.html";
-    }
-    
+    document.location.href = "step3.html";
 })
