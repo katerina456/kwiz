@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwiz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="container">
+        <div class="info">
+            <h1 class="info-title">Подберём вуз мечты</h1>
+            <p class="info-text">
+                Ответьте на 8 простых вопросов, 
+                и мы составим список наболее подходящих для вас вузов
+            </p>
+            <img src="images/image.png" alt="">
+        </div>
+
+        <div class="step">
+            <div class="question">
+                <h2 class="question-title">Для кого вы ищете учебное заведение?</h2>
+                <p class="question-count">Шаг 1/9</p>
+            </div>
+
+            <div class="radios">
+                <div class="radio-item">
+                    <input type="radio" name="user" id="your" value="your" class="radio">
+                    <label for="your">Себе</label>  
+                </div>
+                
+                <div class="radio-item">
+                    <input type="radio" name="user" id="husband" value="husband" class="radio">
+                    <label for="husband">Супругу/супруге</label>
+                </div>
+                
+                <div class="radio-item">
+                    <input type="radio" name="user" id="relative" value="relative">
+                    <label for="relative">Родственнику</label>
+                </div>
+                
+                <div class="radio-item">
+                    <input type="radio" name="user" id="colleague" value="colleague">
+                    <label for="colleague">Коллеге</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="user" id="child" value="child">
+                    <label for="child">Ребенку</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="user" id="another" value="another">
+                    <label for="another">Другое</label>
+                </div>
+            </div>
+            
+            
+            <button class="button button-black">
+                Далее
+                <img src="icons/arrow-right.svg" alt="">
+            </button>
+
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

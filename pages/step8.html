@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwiz</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <section class="container">
+        <div class="info">
+            <h1 class="info-title">Подберём вуз мечты</h1>
+            <p class="info-text">
+                Ответьте на 8 простых вопросов, 
+                и мы составим список наболее подходящих для вас вузов
+            </p>
+            <img src="../images/image.png" alt="">
+        </div>
+
+        <div class="step">
+            <div class="question">
+                <h2 class="question-title">Как скоро планируете поступать?</h2>
+                <p class="question-count">Шаг 8/9</p>
+            </div>
+
+            <div class="radios">
+                <div class="radio-item">
+                    <input type="radio" name="when" id="now" value="now" class="radio">
+                    <label for="now">Как можно быстрее</label>
+                </div>
+                
+                <div class="radio-item">
+                    <input type="radio" name="when" id="month" value="month" class="radio">
+                    <label for="month">Месяц</label>
+                </div>
+                
+                <div class="radio-item">
+                    <input type="radio" name="when" id="quarter" value="quarter">
+                    <label for="quarter">Квартал</label>
+                </div>
+                
+                <div class="radio-item">
+                    <input type="radio" name="when" id="halfyear" value="halfyear">
+                    <label for="halfyear">Полгода</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="when" id="year" value="year">
+                    <label for="year">Год</label>
+                </div>
+            </div>
+              
+            <div>
+                <button class="button button-white">
+                    <img src="../icons/arrow-left.svg" alt="">
+                    Назад
+                </button>
+
+                <button class="button button-black">
+                    Далее
+                    <img src="../icons/arrow-right.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="step8.js"></script>
+</body>
+</html>

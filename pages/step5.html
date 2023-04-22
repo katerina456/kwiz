@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwiz</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <section class="container">
+        <div class="info">
+            <h1 class="info-title">Подберём вуз мечты</h1>
+            <p class="info-text">
+                Ответьте на 8 простых вопросов, 
+                и мы составим список наболее подходящих для вас вузов
+            </p>
+            <img src="../images/image.png" alt="">
+        </div>
+
+        <div class="step">
+            <div class="question">
+                <h2 class="question-title">Какую форму обучения предпочитаете?</h2>
+                <p class="question-count">Шаг 5/9</p>
+            </div>
+
+            <div class="radios radios-column">
+                <div class="radio-item radio-item-column">
+                    <input type="radio" name="how" id="in" value="in" class="radio">
+                    <label for="in">Очную</label>
+                </div>
+                
+                <div class="radio-item radio-item-column">
+                    <input type="radio" name="how" id="out" value="out" class="radio">
+                    <label for="out">Заочную</label>
+                </div>
+                
+                <div class="radio-item radio-item-column">
+                    <input type="radio" name="how" id="net" value="net">
+                    <label for="net">Дистанционную</label>
+                </div>
+            </div>
+                       
+            <div>
+                <button class="button button-white">
+                    <img src="../icons/arrow-left.svg" alt="">
+                    Назад
+                </button>
+
+                <button class="button button-black">
+                    Далее
+                    <img src="../icons/arrow-right.svg" alt="">
+                </button>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="step5.js"></script>
+</body>
+</html>
